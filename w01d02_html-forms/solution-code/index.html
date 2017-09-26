@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Forms</title>
+  </head>
+  <body>
+    <form>
+      <div>
+        <label for="firstname">First Name</label>
+        <input type="text" id="firstname" name="firstname" value="Don">
+      </div>
+      <div>
+        <label for="lastname">Last Name</label>
+        <input type="text" id="lastname" name="lastname" value="Juan">
+      </div>
+      <div>
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" name="dob" value="1301-10-10">
+      </div>
+      <div>
+        <label for="email">Email address</label>
+        <input type="email" id="email" name="email" value="don@juan.com">
+      </div>
+      <div>
+        <label>Interested in meeting</label>
+        <label>
+          <input type="radio" name="interest" value="men"> Men
+        </label>
+        <label>
+          <input type="radio" name="interest" value="women" checked> Women
+        </label>
+      </div>
+      <div>
+        <label for="color">Favorite Color</label>
+        <input type="color" id="color" name="color" value="#FF0000">
+      </div>
+      <div>
+        <label for="height">Height (cm)</label>
+        <input type="number" id="height" name="height" value="178">
+      </div>
+      <div>
+        <label for="bio">Tell us about yourself</label>
+        <textarea id="bio" name="bio">I like drinking, gambling and partying.</textarea>
+      </div>
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
